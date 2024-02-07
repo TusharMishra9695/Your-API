@@ -37,8 +37,10 @@ a {
   --nblack: #212121;
   --ngray: #e7e9eb;
   --bg: #f7f7f7;
+  --border: #d7d6d6;
 }
 ::-webkit-scrollbar {
+  width: 6px;
   height: 7px;
   cursor: pointer;
 }
