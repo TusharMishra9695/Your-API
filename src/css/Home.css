@@ -1,0 +1,11 @@
+.code_component p {
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+}
+.code {
+  background-color: #fff;
+  max-width: 80rem;
+  overflow-x: scroll;
+  padding: 2rem;
+}

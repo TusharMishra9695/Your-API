@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Nav.css";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
@@ -11,8 +12,20 @@ export default function Nav() {
         <li>DELETE</li>
       </ul>
       <ul className="flex nav_pages">
-        <li>Home</li>
-        <li>Github</li>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link
+            to="https://github.com/TusharMishra9695/Your-API-Backend"
+            target="_blank"
+          >
+            Github
+          </Link>
+        </li>
+        <li>
+          <Link to="/">Donate</Link>
+        </li>
       </ul>
     </div>
   );

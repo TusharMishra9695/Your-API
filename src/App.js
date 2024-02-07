@@ -1,13 +1,14 @@
 import RouteRole from "./RouteRoles";
 import Nav from "./components/Nav";
+import { BrowserRouter } from "react-router-dom";
 import "./css/global.css";
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <Nav />
       <RouteRole />
-    </div>
+    </BrowserRouter>
   );
 }
 
