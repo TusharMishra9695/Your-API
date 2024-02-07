@@ -1,11 +1,49 @@
 .code_component p {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-weight: 400;
   font-family: "Times New Roman", Times, serif;
 }
+.code_component {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 5rem;
+}
 .code {
   background-color: #fff;
-  max-width: 80rem;
-  overflow-x: scroll;
+  max-width: 85rem;
+  min-width: 280px;
+  overflow-x: auto;
   padding: 2rem;
+}
+.code_component span {
+  display: inline-block;
+  min-width: 100px;
+  max-width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--nblack);
+  color: var(--ngray);
+  text-transform: capitalize;
+  font-size: 1.7rem;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.code_json {
+  color: var(--nblack);
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 420px) {
+  .code_component {
+    padding: 1rem;
+  }
+  .code_component span {
+    min-width: 80px;
+    max-width: 100px;
+    height: 30px;
+  }
 }

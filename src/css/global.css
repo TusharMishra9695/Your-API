@@ -39,7 +39,7 @@ a {
   --bg: #f7f7f7;
 }
 ::-webkit-scrollbar {
-  height: 6px;
+  height: 7px;
   cursor: pointer;
 }
 
