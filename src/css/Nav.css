@@ -1,0 +1,41 @@
+.nav_ul {
+  gap: 5rem;
+  width: 60%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav_pages {
+  gap: 5rem;
+  width: 40%;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2rem;
+}
+.nav {
+  background-color: var(--nblack);
+  height: 6rem;
+}
+.nav_ul,
+.nav_pages li {
+  color: var(--ngray);
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+}
+@media screen and (max-width: 590px) {
+  .nav_ul {
+    gap: 2rem;
+  }
+  .nav_pages {
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .nav_ul {
+    gap: 1rem;
+  }
+  .nav_pages {
+    gap: 0.5rem;
+  }
+}

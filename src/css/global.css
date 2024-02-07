@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  font-family: "Times New Roman", Times, serif;
+  scroll-behavior: smooth;
+}
+@media screen and (max-width: 590px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 420px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --nblack: #080816;
+  --ngray: #e7e9eb;
+}
